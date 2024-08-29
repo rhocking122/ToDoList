@@ -12,9 +12,8 @@ export default function App() {
 
     <View style={styles.items}>
       {/* This is where the tasks go */}
-      <Task />
-      <Task />
-      <Task />
+      <Task text = {'Task 1'}/>
+      <Task text = {'Task 2'}/>
     </View>
 
     </View>
@@ -26,7 +25,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EBEAED',
+    backgroundColor: '#E8EAED',
   },
 tasksWrapper: {
   paddingTop: 80,
