@@ -37,6 +37,5 @@ sectionTitle: {
 },
 items: {
   marginTop: 30,
-  
 },
 });
